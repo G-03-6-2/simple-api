@@ -11,7 +11,6 @@ def index():
 def hello(name):
     return "Hello, " + str(name)
 
-
 @app.route('/calculate/<num1>/<num2>', methods=['GET'])
 def calculate(num1, num2):
     try:
