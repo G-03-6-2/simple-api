@@ -4,7 +4,7 @@ from app import app
 
 class AppTestCase(unittest.TestCase):
     def test_hello_with_string(self):
-        # test hello 
+        # test hello
         # docker rm -f $(docker ps -aq)
         # docker rmi -f $(docker images -aq)
         res = app.hello("Group_3!")
