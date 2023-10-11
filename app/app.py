@@ -28,7 +28,7 @@ def calculate(num1, num2):
                 'is_prime num1 + num2' : is_prime(num1 + num2),
             }
     except:
-        results = { 'error_msg' : 'inputs must be numbers' }
+        results = { 'error_msg' : 'inputs must be numbers!' }
 
     return jsonify(results)
 
