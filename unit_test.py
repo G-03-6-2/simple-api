@@ -16,7 +16,7 @@ class AppTestCase(unittest.TestCase):
         self.assertEqual(res, "hello, 1")
 
     def test_is_prime(self):
-        # test_is_prime
+        # test_is_prime 
         res = app.is_prime(2)
         self.assertEqual(res, "True")
 
