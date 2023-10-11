@@ -32,7 +32,7 @@ def calculate(num1, num2):
 
     return jsonify(results)
 
-@app.route('/is_prime/<number>', methods=['GET'])
+@app.route('/isprime/<number>', methods=['GET'])
 def is_prime(number):
     if number <= 1:
         return "False"
